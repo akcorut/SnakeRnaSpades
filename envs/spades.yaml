@@ -1,0 +1,6 @@
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - bioconda::spades=3.13.1

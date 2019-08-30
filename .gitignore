@@ -1,0 +1,16 @@
+*
+
+!*.sh
+!Snakefile
+!config.yaml
+!environment.yaml
+!README.md
+!rules
+!rules/*
+!scripts
+!scripts/*
+!.gitignore
+!.gitattributes
+!envs/*
+!envs
+!*_samples.yaml

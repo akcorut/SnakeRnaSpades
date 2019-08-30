@@ -1,0 +1,17 @@
+  [
+     {  orientation: "rf",
+        type: "paired-end",
+        right reads: [
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/ILZW_RNAseq_G086_GATCAG_Arachis_hypogaea_I801_L5_R1_val_1.fq.gz", 
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/IMAT_RNAseq_T052_CTTGTA_Arachis_hypogaea_I801_L6_R1_val_1.fq.gz", 
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/ILXM_RNAseq_T090_TAGCTT_Arachis_hypogaea_I801_L2_R1_val_1.fq.gz", 
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/IMAR_RNAseq_T102_TAGCTT_Arachis_hypogaea_I801_L6_R1_val_1.fq.gz"
+        ],
+        left reads: [
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/ILZW_RNAseq_G086_GATCAG_Arachis_hypogaea_I801_L5_R2_val_2.fq.gz", 
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/IMAT_RNAseq_T052_CTTGTA_Arachis_hypogaea_I801_L6_R2_val_2.fq.gz", 
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/ILXM_RNAseq_T090_TAGCTT_Arachis_hypogaea_I801_L2_R2_val_2.fq.gz", 
+          "/scratch/ac32082/PeanutRnaSeq/results/trimmed/IMAR_RNAseq_T102_TAGCTT_Arachis_hypogaea_I801_L6_R2_val_2.fq.gz"
+        ]
+      }
+  ]
