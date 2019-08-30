@@ -13,4 +13,4 @@
 !.gitattributes
 !envs/*
 !envs
-!*_samples.yaml
+!leaf_samples.yaml
