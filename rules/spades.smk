@@ -1,4 +1,4 @@
-rule spades_leaf:
+rule spades:
     input:
         samples="leaf_samples.yaml"
     output:

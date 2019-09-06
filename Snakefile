@@ -30,7 +30,10 @@ rule all:
         "results/salmon/transcriptome_index",
         expand("results/salmon/{smp}/quant.sf", smp=sample_id),
         "results/busco/full_table_busco.tsv",
-        "results/multiqc/multiqc_report.html"
+        "results/multiqc/multiqc_report.html",
+        "results/mummer/delta/leaf.delta",
+        "results/mummer/plot/leaf.png"
+
 
 include: "rules/spades.smk"
 include: "rules/transrate.smk"
@@ -39,3 +42,4 @@ include: "rules/busco.smk"
 include: "rules/kallisto.smk"
 include: "rules/salmon.smk"
 include: "rules/multiqc.smk"
+include: "rules/mummer.smk"

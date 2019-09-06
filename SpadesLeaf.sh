@@ -1,9 +1,9 @@
 #PBS -S /bin/bash
 #PBS -N j_spadesLeaf
-#PBS -q batch
-#PBS -l nodes=1:ppn=10
+#PBS -q wallace_q
+#PBS -l nodes=1:ppn=8
 #PBS -l walltime=240:00:00
-#PBS -l mem=100gb
+#PBS -l mem=90gb
 
 #PBS -M ac32082@uga.edu
 #PBS -m ae
@@ -17,4 +17,4 @@ source activate snakemake-rnaseq
 export LC_ALL=en_SG.utf8
 export LANG=en_SG.utf8
 
-snakemake --use-conda --cores 10 -s Snakefile
+snakemake --use-conda --cores 8 -s Snakefile
